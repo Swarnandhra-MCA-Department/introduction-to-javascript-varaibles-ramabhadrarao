@@ -1,0 +1,14 @@
+{
+  "tests": [
+    { "name": "studentName is a string", "run": "npm test -- -t \"studentName is a string\"", "points": 10 },
+    { "name": "age is a number", "run": "npm test -- -t \"age is a number\"", "points": 10 },
+    { "name": "isEnrolled is a boolean", "run": "npm test -- -t \"isEnrolled is a boolean\"", "points": 10 },
+    { "name": "score is a bigint", "run": "npm test -- -t \"score is a bigint\"", "points": 10 },
+    { "name": "id is a symbol", "run": "npm test -- -t \"id is a symbol\"", "points": 10 },
+    { "name": "favoriteColors is an array of strings", "run": "npm test -- -t \"favoriteColors is an array of strings\"", "points": 10 },
+    { "name": "profile is an object with name & age", "run": "npm test -- -t \"profile is an object with name & age\"", "points": 15 },
+    { "name": "nothing is null", "run": "npm test -- -t \"nothing is null\"", "points": 10 },
+    { "name": "notDefined is undefined", "run": "npm test -- -t \"notDefined is undefined\"", "points": 5 },
+    { "name": "PI is a constant number", "run": "npm test -- -t \"PI is a constant number\"", "points": 10 }
+  ]
+}
